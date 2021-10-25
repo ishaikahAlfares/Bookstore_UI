@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let item of productList">
+         <div class="card col-md-3">
+             <img [src]='book1' alt="">
+             <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Name:</strong></h5>
+             <p>Book Name</p>
+             <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Author:</strong></h5>
+             <p> Author Name </p>
+             <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Description:</strong></h5>
+             <p style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;">Book Description here </p>
+             <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Price: 60$</strong></h5>
+             <button class="btn btn-dark"(click)=addToCart(item)>Add to Cart</button>
+         </div>
+         <div class="card col-md-3">
+             <img [src]='book2' alt="">
+             <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Name:</strong></h5>
+            
+             <p>Book Name</p>
+             <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Author:</strong></h5>
+             <p> Author Name </p>
+             <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Description:</strong></h5>
+             <p style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;">Book Description here </p>
+             <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Price: 60$</strong></h5>
+              <button class="btn btn-dark">Add to Cart</button>
+         </div>
+         <div class="card col-md-3">
+             <img [src]='book3' alt="" >
+             <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Name:</strong></h5>
+             <p>Book Name</p>
+             <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Author:</strong></h5>
+             <p> Author Name </p>
+             <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Description:</strong></h5>
+             <p style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;">Book Description here </p>
+             <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Price: 60$</strong></h5>
+              <button class="btn btn-dark">Add to Cart</button>
+         </div>
+         <div class="card col-md-3">
+            <img [src]='book4' alt="" >
+            <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Name:</strong></h5>
+            <p>Book Name</p>
+            <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Author:</strong></h5>
+            <p> Author Name </p>
+            <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Description:</strong></h5>
+            <p style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;">Book Description here </p>
+            <h5 style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;max-width: 100ch;"><strong>Price: 60$</strong></h5>
+             <button class="btn btn-dark">Add to Cart</button>
+        </div>
+        </ng-container>
+        
+    </div>
+</div>
